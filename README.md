@@ -74,20 +74,28 @@ These metrics help measure how accurately the model predicts house prices.
 📂 Project Workflow
 
 Data Collection
+
       ↓
 Data Cleaning
+
       ↓
 Exploratory Data Analysis
+
       ↓
 Data Preprocessing
+
       ↓
 Feature Selection
+
       ↓
 Train-Test Split
+
       ↓
 Model Training
+
       ↓
 Model Evaluation
+
       ↓
 House Price Prediction
 
