@@ -65,6 +65,32 @@ The model is evaluated using regression metrics including:
 - Python Programming
 - Machine Learning
 
+  ## 📊 Project Visualizations
+
+### Price Distribution
+![Price Distribution](01_cell_40.png)
+
+### Feature Relationship Analysis
+![Feature Relationship Analysis](02_cell_47.png)
+
+### Model Prediction Analysis
+![Model Prediction Analysis](03_cell_49.png)
+
+### Actual vs Predicted Prices
+![Actual vs Predicted Prices](04_cell_51.png)
+
+### Feature Importance
+![Feature Importance](05_cell_53.png)
+
+### Model Evaluation
+![Model Evaluation](06_cell_55.png)
+
+### Residual Analysis
+![Residual Analysis](07_cell_79.png)
+
+### Prediction Performance
+![Prediction Performance](08_cell_84.png)
+
 👩‍💻 Author
 
 Shabeena Bano
