@@ -1,67 +1,18 @@
-🏠 House Price Prediction
+# 🏠 House Price Prediction
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project focuses on predicting house prices using Machine Learning. The main objective is to understand how different factors, especially the area of a house, influence its price and to build a model that can accurately predict house prices.
+This project focuses on predicting house prices using Machine Learning. The analysis includes data preprocessing, exploratory data analysis, feature engineering, model training, and evaluation.
 
-🎯 Objectives
+## 🎯 Objectives
 
-- Analyze the house price dataset
-- Clean and preprocess the data
-- Perform Exploratory Data Analysis (EDA)
-- Study the relationship between house area and price
-- Identify important features affecting house prices
-- Train a Machine Learning regression model
-- Evaluate the model's performance
-- Predict house prices for new data
+- Analyze the factors affecting house prices
+- Perform data cleaning and preprocessing
+- Explore relationships between features and house prices
+- Build a machine learning regression model
+- Evaluate model performance using regression metrics
 
-📊 Dataset
-
-The dataset contains information about houses and their prices.
-
-Important Features
-
-- Area – Size of the house
-- Bedrooms – Number of bedrooms
-- Bathrooms – Number of bathrooms
-- Stories – Number of floors
-- Parking – Number of parking spaces
-- Price – Target variable representing the house price
-
-🔍 Exploratory Data Analysis
-
-EDA was performed to understand the dataset and identify important patterns.
-
-The analysis includes:
-
-- Distribution of house prices
-- Relationship between area and house price
-- Correlation between numerical features
-- Analysis of important housing features
-- Data visualization using charts
-
-📈 Area vs House Price
-
-The Area vs House Price analysis helps understand how the size of a house affects its price. Generally, larger houses tend to have higher prices, although other features can also influence the final price.
-
-🤖 Machine Learning Model
-
-A regression-based Machine Learning model is used because the target variable, house price, is a continuous numerical value.
-
-The model is trained using selected features from the dataset and then used to predict house prices.
-
-📏 Model Evaluation
-
-The model performance is evaluated using:
-
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R² Score
-
-These metrics help measure how accurately the model predicts house prices.
-
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -71,49 +22,53 @@ These metrics help measure how accurately the model predicts house prices.
 - Scikit-learn
 - Jupyter Notebook
 
-📂 Project Workflow
+## 🔍 Project Workflow
 
-Data Collection
+1. Data Loading
+2. Data Understanding
+3. Data Cleaning
+4. Exploratory Data Analysis
+5. Feature Engineering
+6. Train-Test Split
+7. Model Building
+8. Model Evaluation
+9. Prediction Analysis
 
-      ↓
-Data Cleaning
+## 🤖 Machine Learning Model
 
-      ↓
-Exploratory Data Analysis
+The project uses a **Random Forest Regressor** to predict house prices.
 
-      ↓
-Data Preprocessing
+Random Forest is an ensemble machine learning algorithm that combines multiple decision trees to produce a more reliable regression prediction.
 
-      ↓
-Feature Selection
+## 📊 Model Performance
 
-      ↓
-Train-Test Split
+The Random Forest Regressor achieved an **R² score of approximately 0.87** on the evaluated dataset.
 
-      ↓
-Model Training
+## 📈 Evaluation Metrics
 
-      ↓
-Model Evaluation
+The model is evaluated using regression metrics including:
 
-      ↓
-House Price Prediction
+- R² Score
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
 
-💡 Key Insights
+## 💡 Key Skills Demonstrated
 
-- House area has an important relationship with house price.
-- Different property features contribute to the final price.
-- Data visualization helps identify relationships and patterns.
-- Regression Machine Learning can be used to predict continuous house prices.
-
-🏁 Conclusion
-
-The House Price Prediction project demonstrates the complete Machine Learning workflow, from data cleaning and exploratory analysis to model training and prediction.
-
-This project helped develop practical skills in Python, Data Analysis, Data Visualization, and Machine Learning Regression.
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Data Visualization
+- Regression
+- Random Forest
+- Model Evaluation
+- Python Programming
+- Machine Learning
 
 👩‍💻 Author
 
 Shabeena Bano
 
-B.Tech Computer Science & Engineering Student
+GitHub: https://github.com/shabeenabano
+
+LinkedIn: https://www.linkedin.com/in/shabeena-bano-49861542b/
